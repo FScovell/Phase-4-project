@@ -5,7 +5,7 @@ export default function Dashboard({user, handleLogout}) {
 
     return (
         <div className="container">
-            <Typography variant="h2" my={4}>Welcome, {user.username}</Typography>
+            <Typography variant="h2" my={4}>Welcome back, {user.username}</Typography>
             <div>
                 <Typography variant="h4" my={4}>Your items</Typography>
                 <ItemTable user={user}/>
